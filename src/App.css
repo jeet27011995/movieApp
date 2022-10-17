@@ -1,0 +1,48 @@
+body {
+  background-color: #1e2931;
+  color: #fff;
+  font-family: Verdana, sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 90%;
+}
+.search {
+  font-size: 1.5rem;
+  margin: 1.5em auto 3em;
+  max-width: 80%;
+}
+
+.search [type="search"] {
+  background-color: #ffffff;
+  color: #898f9c;
+  padding: 0.5em 2em;
+  text-align: center;
+  width: 100%;
+}
+.movieWrapper {
+  display: flex;
+
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.movieCard {
+  padding-bottom: 22px;
+  width: 20%;
+  margin: 10px;
+  height: 300px;
+}
+.movieImage {
+  width: 60%;
+}
+.movieName {
+  font-size: 15px;
+  margin: 0;
+  font-weight: 0;
+  padding: 0 0 10px 0;
+}
+figcaption {
+  padding: 0 0 10px 0;
+}
